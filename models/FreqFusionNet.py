@@ -1,4 +1,3 @@
-# FreqFusionNet: A novel image dehazing network with frequency fusion mechanism
 import torch.nn.functional as F
 from layers import *
 import numpy as np
@@ -513,4 +512,5 @@ class FreqFusionNet(nn.Module):
 
 
 def build_net():
+
     return FreqFusionNet()
